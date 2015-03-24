@@ -1,0 +1,22 @@
+<div class="modal">
+    <ion-header-bar class="bar bar-header bar-positive">
+      <h1 class="title">Create Profile</h1>
+      <button class="button button-icon icon ion-close" ng-click="modal.hide()"></button>
+    </ion-header-bar>
+    <ion-content>
+        <div class="list list-inset">
+            <form ng-submit="createUser(email, password, first_name)">
+                <label class="item item-input">
+                    <input type="text" placeholder="First Name" ng-model="first_name">
+                </label>
+                <label class="item item-input">
+                    <input type="text" placeholder="E-Mail" ng-model="email">
+                </label>
+                <label class="item item-input">
+                    <input type="text" placeholder="Password" ng-model="password">
+                </label>
+                <button class="button button-block button-positive" value="Submit" >Create</button>
+            </form>
+        </div>
+    </ion-content>
+</div>

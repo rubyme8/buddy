@@ -1,0 +1,58 @@
+<div ng-cloak>
+<ion-view title="{{steak.cut}}">
+  <ion-nav-buttons side="left">
+    <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+  <ion-nav-buttons side="right">
+    <button class="button button-icon icon ion-knife" ng-click="modal.show()">Steak</button>
+  </ion-nav-buttons>
+
+  <ion-content class="has-header" scroll="false" ng-show="viewType == 'map'">
+
+    <div gm-info-window="infoWindow" gm-info-window-options="{pixelOffset: $root.offset}">
+      <a href="#/app/stores/details/{{selectedStore.id}}/{{$index}}"> {{selectedStore.name}} </a></br>
+      {{selectedStore.cuts[$root.steak.cut].price}}/lb
+    </div>
+
+    <gm-map id="map-canvas" gm-map-id="'infoWindows'" gm-center="options.map.center" gm-zoom="options.map.zoom" gm-map-options="options.map" style="width:100%; height:100%;" data-tap-disabled="true" >
+
+      <gm-markers gm-objects="$root.stores"
+                  gm-id="object.id"
+                  gm-position="{ lat: object.location.lat, lng: object.location.lng }"
+                  gm-marker-options="{ content: object.marker, title: object.name, clickable: true, shadow: false }"
+                  gm-events="markerEvents"
+                  gm-on-openinfowindow="selectedStore = object; infoWindow.open(marker.getMap(), marker);"
+                  gm-on-click="triggerOpenInfoWindow(object)">
+      </gm-markers>
+
+    </gm-map>
+  </ion-content>
+
+  <ion-content class="has-header" scroll="true" ng-show="viewType == 'list'">
+    <ion-list id="list-view" class="store-list">
+      <ion-item ng-repeat="store in $root.stores" href="#/app/stores/details/{{store.id}}/{{$index}}">
+        <div class="markerList" ng-bind-html="store.marker">
+
+        </div>
+            <div>
+                <div class="store-name">{{store.name}}</div> 
+                <div class="price">{{store.cuts[$root.steak.cut].price}}/lb</div>
+            </div>
+            <div>
+                <div class="city"><span class="distance">{{store.distance.dist}}</span></div>
+                <div class="updated">{{Math.round(moment.duration(now - store.cuts[$root.steak.cut].updated).asHours())}} hrs ago</div>
+            </div>
+        <ion-option-button class="button-assertive hasSteaksButton" ng-click="hasSteaks(store, false, $index)">
+          No Steaks Here
+        </ion-option-button>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+
+  <ion-footer-bar class="bar-positive">
+    <a ng-click="sortBy()" class="button button-icon icon ion-navigate">Sort By</a>
+    <button ng-show="viewType == 'map'" ng-click="$root.viewType = 'list'" class="button button-icon pull-right">LIST</button>
+    <button ng-show="viewType == 'list'" ng-click="resizeMap(); $root.viewType = 'map'" class="button button-icon pull-right">MAP</button>
+  </ion-footer-bar>
+</ion-view>
+</div>

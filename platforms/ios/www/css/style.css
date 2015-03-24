@@ -1,0 +1,316 @@
+/* Empty. Add your own CSS if you like */
+
+.bar.bar-positive, .bar.bar-positive.bar-footer{
+	background: url('../img/leatherbg-pattern.jpg');
+	background-size: 619px 300px;
+	border-color:#482b1a;
+	background-color: #000;
+}
+.view{
+	top: 1px;
+	background-color: #000;
+}
+.pane{
+	top: -1px;
+}
+/*
+.menu-content {
+	box-shadow: 1px 4px 2px rgba(0, 0, 0, 0.9), 1px 4px 2px rgba(0, 0, 0, 0.9); 
+}
+
+
+.pane{
+	background-color: #000;
+}
+*/
+.bar-header:before, .bar-header:after, .bar-footer:before, .bar-footer:after {  
+    content: "";  
+    display: block;  
+    width: 100%;  
+    height: 100%;    
+    position: absolute;  
+}
+
+.bar-header:before {  
+    border-bottom: 2px dashed rgba(0,0,0, .3);  
+    bottom: 3px;  
+    left: 0px;
+    margin-bottom: -1px;  
+    margin-left: 2px;    
+}
+
+.bar-header:after {  
+    border-bottom: 2px dashed rgba(226,215,196, .5);  
+    bottom: 3px;  
+    left: 0px;  
+}  
+
+
+.bar-footer:before {  
+    border-top: 2px dashed rgba(0,0,0, .3);  
+    top: 3px;  
+    left: 0px;
+    margin-top: -1px;  
+    margin-left: 2px;    
+}
+
+.bar-footer:after {  
+    border-top: 2px dashed rgba(226,215,196, .5);  
+    top: 3px;  
+    left: 0px;  
+}  
+
+.scroll {
+	height: 100%;
+}
+
+.bar .title {
+	text-transform: uppercase;
+	font-weight:200;
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+/* Stores List */
+.scroll-view {
+	display: inline;
+}
+.store-name, .price, .city, .updated {
+	display: inline-block;
+}
+.city, .store-name{
+    margin-left:35px;
+}
+.city{
+	overflow:hidden;
+    text-overflow:ellipsis;
+    max-width:170px;
+}
+.store-name{
+	font-weight: 200;
+	font-size: 110%;
+	overflow:hidden;
+    text-overflow:ellipsis;
+    max-width:165px;
+}
+
+.price{
+	font-weight: 200;
+	font-size: 150%
+}
+.distance, .updated{
+	color:#ccc;
+}
+.distance{
+	vertical-align: top;
+}
+.updated, .price{
+	float: right;
+}
+
+.store-list .item-complex .item-content {
+ 	padding-top:12px; 	
+ 	padding-bottom:11px;
+ 	padding-right:15px;
+ 	padding-left: 5px;
+ }
+
+ .hasSteaksButton{
+ 	padding-top:17px;
+ }
+
+.markerList{
+	position:absolute;
+	padding-top: 3px;
+}
+
+.markerList .num{
+	font-size:13px;
+}
+/* Stores List END */
+
+
+/* Store Detail Page */
+.edit-item{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 72px;
+}
+
+.edit-item button{
+	height: 30px;
+	min-height: 30px;
+	line-height: 30px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.edit-item button .icon:before{
+	line-height: 28px;
+	font-size: 22px;
+}
+
+.cut-label{
+	text-transform:capitalize;
+	font-weight: bold;
+	font-size: 80%
+}
+
+.edit-price-label, .confirm-price-label, .edit-label, .confirm-label{
+	font-size: 80%
+}
+
+.edit-label, .confirm-label{
+	font-weight: 200;
+}
+.cut-price{
+	font-weight: 200;
+	font-size: 140%;
+	padding-bottom: 6px;
+}
+.edit-price{
+	padding-right:10px;
+}
+
+.cut-price-container{
+	width: 110px;
+}
+
+.price-input-container {
+	border: 1px solid #ddd;
+	width: 107px;
+	font-weight: 200;
+	font-size: 140%;
+	margin-bottom:2px;
+}
+
+.price-input-container input{
+	display: inline;
+	width: 55px;
+	font-size:22px;
+	font-weight: 200;
+	padding: 0 !important;
+	height: 26px;
+	vertical-align: baseline;
+}
+
+.save-container{
+	vertical-align: top;
+}
+
+.selectedSteak{
+	background-color: #F7F7FF;
+}
+
+.storeDetails {
+	font-weight: 200;
+	text-align: center;
+}
+.storeDetailsAddr{
+
+}
+
+/* Store Detail Page END*/
+
+/* Cut Select Modal */
+
+/* Cut Select modal END*/
+
+/* Google Maps Pin BEGIN */
+
+.pin {
+  width:29px;
+  height:38px;
+}
+.num{
+	padding-top:4px;
+	padding-left:2px;
+	color: #fff;
+	position: relative;
+	text-align:center;
+}
+
+.pin-0 {
+  background: url('../img/gmap-markers/0-20.png') no-repeat; 
+}
+.pin-1 {
+  background: url('../img/gmap-markers/1-20.png') no-repeat; 
+}
+.pin-2 {
+  background: url('../img/gmap-markers/2-20.png') no-repeat; 
+}
+.pin-3 {
+  background: url('../img/gmap-markers/3-20.png') no-repeat; 
+}
+.pin-4 {
+  background: url('../img/gmap-markers/4-20.png') no-repeat; 
+}
+.pin-5 {
+  background: url('../img/gmap-markers/5-20.png') no-repeat; 
+}
+.pin-6 {
+  background: url('../img/gmap-markers/6-20.png') no-repeat; 
+}
+.pin-7 {
+  background: url('../img/gmap-markers/7-20.png') no-repeat; 
+}
+.pin-8 {
+  background: url('../img/gmap-markers/8-20.png') no-repeat; 
+}
+.pin-9 {
+  background: url('../img/gmap-markers/9-20.png') no-repeat; 
+}
+.pin-10 {
+  background: url('../img/gmap-markers/10-20.png') no-repeat; 
+}
+.pin-11 {
+  background: url('../img/gmap-markers/11-20.png') no-repeat; 
+}
+.pin-12 {
+  background: url('../img/gmap-markers/12-20.png') no-repeat; 
+}
+.pin-13 {
+  background: url('../img/gmap-markers/13-20.png') no-repeat; 
+}
+.pin-14 {
+  background: url('../img/gmap-markers/14-20.png') no-repeat; 
+}
+.pin-15 {
+  background: url('../img/gmap-markers/15-20.png') no-repeat; 
+}
+.pin-16 {
+  background: url('../img/gmap-markers/16-20.png') no-repeat; 
+}
+.pin-17 {
+  background: url('../img/gmap-markers/17-20.png') no-repeat; 
+}
+.pin-18 {
+  background: url('../img/gmap-markers/18-20.png') no-repeat; 
+}
+.pin-19 {
+  background: url('../img/gmap-markers/19-20.png') no-repeat; 
+}
+.pin-20 {
+  background: url('../img/gmap-markers/19-20.png') no-repeat; 
+}
+
+/* Google Maps Pin END */
+
+/* Profile Page */
+.or-seperator {
+	text-align: center;
+	color: #999;
+	font-size: 24px;
+	font-weight: 200;
+	padding-top: 10px;
+}
+.button.facebook-button {
+	background-color: #3b5998;
+}
+.icon.trophy-icon{
+	color: #fff;
+	font-size: 41%;
+	left: 0px;
+	top: -5px;
+}

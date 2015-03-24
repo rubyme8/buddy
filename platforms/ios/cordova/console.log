@@ -1,0 +1,51 @@
+2014-10-20 20:10:43.299 SteakBuddy[3574:33719] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Chaz/Library/Developer/CoreSimulator/Devices/10C49595-210D-40F9-847C-9D8EE6A424C2/data/Containers/Data/Application/268E8CDA-9E61-4D9D-AAC1-F8B1C181019A/Library/Cookies/Cookies.binarycookies
+2014-10-20 20:10:43.418 SteakBuddy[3574:33719] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-20 20:10:43.419 SteakBuddy[3574:33719] Multi-tasking -> Device: YES, App: YES
+2014-10-20 20:10:43.425 SteakBuddy[3574:33719] Unlimited access to network resources
+2014-10-20 20:10:43.660 SteakBuddy[3574:33719] [CDVTimer][keyboard] 0.072002ms
+2014-10-20 20:10:43.684 SteakBuddy[3574:33719] [CDVTimer][splashscreen] 23.416996ms
+2014-10-20 20:10:43.684 SteakBuddy[3574:33719] Init FacebookConnect Session
+2014-10-20 20:10:43.686 SteakBuddy[3574:33719] [CDVTimer][facebookconnectplugin] 1.886964ms
+2014-10-20 20:10:43.686 SteakBuddy[3574:33719] [CDVTimer][TotalPluginStartup] 25.893033ms
+2014-10-20 20:10:43.785 SteakBuddy[3574:33719] Resetting plugins due to page load.
+2014-10-20 20:10:44.120 SteakBuddy[3574:33719] Finished load of: file:///Users/Chaz/Library/Developer/CoreSimulator/Devices/10C49595-210D-40F9-847C-9D8EE6A424C2/data/Containers/Bundle/Application/22BE093A-3CE0-40E4-B841-8AC660BE2835/SteakBuddy.app/www/index.html#/app/profile
+2014-10-20 20:10:44.330 SteakBuddy[3574:33719] isIOS
+2014-10-20 20:20:39.454 SteakBuddy[3847:38675] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Chaz/Library/Developer/CoreSimulator/Devices/10C49595-210D-40F9-847C-9D8EE6A424C2/data/Containers/Data/Application/7914BF46-CD01-48F3-91A1-1C47F4393CD9/Library/Cookies/Cookies.binarycookies
+2014-10-20 20:20:39.605 SteakBuddy[3847:38675] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-20 20:20:39.605 SteakBuddy[3847:38675] Multi-tasking -> Device: YES, App: YES
+2014-10-20 20:20:39.611 SteakBuddy[3847:38675] Unlimited access to network resources
+2014-10-20 20:20:39.841 SteakBuddy[3847:38675] [CDVTimer][keyboard] 0.067055ms
+2014-10-20 20:20:39.862 SteakBuddy[3847:38675] [CDVTimer][splashscreen] 20.412028ms
+2014-10-20 20:20:39.862 SteakBuddy[3847:38675] Init FacebookConnect Session
+2014-10-20 20:20:39.864 SteakBuddy[3847:38675] [CDVTimer][facebookconnectplugin] 1.682997ms
+2014-10-20 20:20:39.864 SteakBuddy[3847:38675] [CDVTimer][TotalPluginStartup] 22.637010ms
+2014-10-20 20:20:39.962 SteakBuddy[3847:38675] Resetting plugins due to page load.
+2014-10-20 20:20:40.266 SteakBuddy[3847:38675] Finished load of: file:///Users/Chaz/Library/Developer/CoreSimulator/Devices/10C49595-210D-40F9-847C-9D8EE6A424C2/data/Containers/Bundle/Application/C4599112-A5FA-4C17-954D-C93D2E8532FA/SteakBuddy.app/www/index.html#/app/profile
+2014-10-20 20:20:40.450 SteakBuddy[3847:38675] isIOS
+2014-10-20 20:35:45.002 SteakBuddy[4349:44525] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Chaz/Library/Developer/CoreSimulator/Devices/10C49595-210D-40F9-847C-9D8EE6A424C2/data/Containers/Data/Application/81C1A7BE-2DDA-4494-9BCD-BBFFDA3376C5/Library/Cookies/Cookies.binarycookies
+2014-10-20 20:35:45.109 SteakBuddy[4349:44525] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-20 20:35:45.109 SteakBuddy[4349:44525] Multi-tasking -> Device: YES, App: YES
+2014-10-20 20:35:45.116 SteakBuddy[4349:44525] Unlimited access to network resources
+2014-10-20 20:35:45.341 SteakBuddy[4349:44525] [CDVTimer][keyboard] 0.074983ms
+2014-10-20 20:35:45.361 SteakBuddy[4349:44525] [CDVTimer][splashscreen] 20.015001ms
+2014-10-20 20:35:45.361 SteakBuddy[4349:44525] Init FacebookConnect Session
+2014-10-20 20:35:45.363 SteakBuddy[4349:44525] [CDVTimer][facebookconnectplugin] 2.218008ms
+2014-10-20 20:35:45.363 SteakBuddy[4349:44525] [CDVTimer][TotalPluginStartup] 22.934020ms
+2014-10-20 20:35:45.470 SteakBuddy[4349:44525] Resetting plugins due to page load.
+2014-10-20 20:35:45.789 SteakBuddy[4349:44525] Finished load of: file:///Users/Chaz/Library/Developer/CoreSimulator/Devices/10C49595-210D-40F9-847C-9D8EE6A424C2/data/Containers/Bundle/Application/0E88CAD2-51BC-44D5-B08E-737ED6E20498/SteakBuddy.app/www/index.html#/app/profile
+2014-10-20 20:35:46.013 SteakBuddy[4349:44525] isIOS
+2014-10-30 20:19:45.693 SteakBuddy[21343:8476306] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Chaz/Library/Developer/CoreSimulator/Devices/10C49595-210D-40F9-847C-9D8EE6A424C2/data/Containers/Data/Application/F09BF078-AB94-4930-B063-D28961C22563/Library/Cookies/Cookies.binarycookies
+2014-10-30 20:19:45.788 SteakBuddy[21343:8476306] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-30 20:19:45.788 SteakBuddy[21343:8476306] Multi-tasking -> Device: YES, App: YES
+2014-10-30 20:19:45.810 SteakBuddy[21343:8476306] Unlimited access to network resources
+2014-10-30 20:19:46.241 SteakBuddy[21343:8476306] [CDVTimer][keyboard] 0.064969ms
+2014-10-30 20:19:46.333 SteakBuddy[21343:8476306] [CDVTimer][splashscreen] 91.472983ms
+2014-10-30 20:19:46.333 SteakBuddy[21343:8476306] Init FacebookConnect Session
+2014-10-30 20:19:46.335 SteakBuddy[21343:8476306] [CDVTimer][facebookconnectplugin] 1.747012ms
+2014-10-30 20:19:46.338 SteakBuddy[21343:8476306] [CDVTimer][statusbar] 3.495991ms
+2014-10-30 20:19:46.339 SteakBuddy[21343:8476306] [CDVTimer][TotalPluginStartup] 97.396970ms
+2014-10-30 20:19:46.485 SteakBuddy[21343:8476306] Resetting plugins due to page load.
+2014-10-30 20:19:47.067 SteakBuddy[21343:8476306] Finished load of: file:///Users/Chaz/Library/Developer/CoreSimulator/Devices/10C49595-210D-40F9-847C-9D8EE6A424C2/data/Containers/Bundle/Application/1B7B90FB-254F-4E92-AD23-03A3886154E4/SteakBuddy.app/www/index.html#/app/profile
+2014-10-30 20:19:47.426 SteakBuddy[21343:8476306] isIOS
+2014-10-30 20:20:02.231 SteakBuddy[21343:8476306] locationManager::didFailWithError (null)
+2014-10-30 20:20:19.649 SteakBuddy[21343:8476622] Terminating since there is no system app.

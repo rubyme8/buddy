@@ -1,0 +1,48 @@
+<div>
+	<div ng-hide="view.editorEnabled" class="inline">
+		<div class="cut-price-container inline">
+				<div class="cut-price">$ {{price}}/lb</div>
+			<div class="cut-label">{{name}}</div>
+		</div>
+	    <div class="edit-price inline">
+			<button class="button button-outline button-dark edit-price-label" ng-click="enableEditor()">
+				<i class="icon ion-ios7-compose-outline"></i> EDIT
+			</button>
+			<div class="edit-label">Last: {{Math.round(moment.duration(now - updated).asHours())}}hrs</div>
+	    </div>
+	    <div class="confirm-price inline" ng-show="$root.user">
+	    	<button class="button button-outline button-dark confirm-price-label" ng-click="addConfirm()">
+				<i class="icon ion-ios7-checkmark-outline"></i> CONFIRM
+			</button>
+			<div class="confirm-label"> {{confirm}} Confirms</div>
+	    </div>
+	   	<div class="confirm-price inline" ng-show="!$root.user">
+			<a href="#/app/profile">
+				<button class="button button-outline button-dark confirm-price-label" ng-click="addConfirm()">
+				LOGIN
+				</button>
+			</a>
+			<div class="confirm-label"> {{confirm}} Confirms</div>
+	    </div>
+	</div>
+
+	<div ng-show="view.editorEnabled" class="inline">
+		<div class="cut-price-container inline">
+			<div class="price-input-container">
+				<span class="">$</span>
+				<input type="tel" ng-model="view.editableValue" format="number" focus-me="shouldBeOpen">
+				<span class="">/lb</span>
+			</div>
+			<div class="cut-label">{{name}}</div>
+		</div>
+		<div class="save-container inline">
+			<button class="button button-outline button-dark edit-price-label" ng-click="save()">
+				SAVE
+			</button>
+			
+			<button class="button button-outline button-dark edit-price-label" ng-click="disableEditor()">
+				CANCEL
+			</button>
+		</div>
+	</div>
+</div>

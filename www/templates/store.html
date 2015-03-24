@@ -1,0 +1,18 @@
+<div ng-cloak>
+
+<ion-view title="Store Profile">
+	<ion-content class="has-header">
+		<div class="storeDetails storeDetailsAddr">{{store.name}} {{$root.stores[storeIndex].distance.dist}}</div>
+		<div class="storeDetails storeDetailsAddr">215-293-9472</div>
+		<div class="storeDetails storeDetailsAddr">{{store.vicinity}}</div>
+
+
+		<div class="list">
+			<div class="item edit-item" ng-repeat="(key,val) in store.cuts" ng-class="{selectedSteak: $root.steak.cut == key}">
+				<click-to-edit name="key" price="val.price" confirm="val.confirm" confirmedby="val.confirmedBy" updated="val.updated" index="storeIndex" storeid="store.$id"></click-to-edit>
+			</div>
+		</div>
+
+	</ion-content>
+</ion-view>
+</div>

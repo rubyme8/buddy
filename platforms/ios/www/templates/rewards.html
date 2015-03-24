@@ -1,0 +1,26 @@
+<div ng-cloak>
+<ion-view title="Rewards">
+<ion-nav-buttons side="left">
+<button menu-toggle="left"class="button button-icon icon ion-navicon"></button>
+</ion-nav-buttons>
+	<ion-content class="has-header">
+		<div class="list card" >
+			<div class="item item-text-wrap">
+				<i class="icon ion-trophy"></i>
+				Total Points: {{$root.user.total_points}}
+			</div>
+			<div class="item item-text-wrap">
+				<i class="icon ion-cash"></i>
+				COMING SOON: Enter to win $$ with your points
+			</div>
+		</div>
+		<div class="list card" >
+			<div class="item item-text-wrap">POINTS <div style="float:right">DATE</div></div>
+			<div class="item item-text-wrap" ng-repeat="point in points">
+			{{point.value}} <span style="font-size:70%">for</span> {{point.action}} 
+			<div style="float:right">{{moment(point.date).format("M/D/YY")}}</div>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>
+</div>

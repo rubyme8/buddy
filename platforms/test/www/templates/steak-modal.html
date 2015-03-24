@@ -1,0 +1,13 @@
+<div class="modal">
+    <ion-header-bar class="bar bar-header bar-positive">
+      <h1 class="title">Select a Cut</h1>
+      <button class="button button-icon icon ion-close" ng-click="closeModal()"></button>
+    </ion-header-bar>
+    <ion-content>
+		<ion-list>
+			<ion-item ng-repeat="cut in $root.cuts" ng-click="closeModal(cut)" href="" class="uppercase">
+				{{cut}}
+			</ion-item>
+		</ion-list>
+    </ion-content>
+</div>
